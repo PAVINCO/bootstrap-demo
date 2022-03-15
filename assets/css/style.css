@@ -1,0 +1,485 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #444;
+}
+
+a,
+:focus,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+header {
+  height: 125vh;
+  background-image: linear-gradient(90deg, #4dabff 0%, #62ddff 100%);
+}
+
+#navbarSupportedContent .nav-link {
+  color: #fff;
+}
+
+.banner {
+  height: 80vh;
+  display: flex;
+  align-items: end;
+  color: #fff;
+}
+
+.banner h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 53px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 13.8px;
+}
+
+.btn {
+  border-radius: 3px;
+  width: 134px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 48px;
+  transition: all 300ms linear 0s;
+  padding: 0;
+}
+
+.btn-outline-light {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
+}
+
+.btn-outline-light:focus,
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-light:focus,
+.btn-light:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.bg-primary-light {
+  background-color: #edf6ff;
+}
+
+.section {
+  padding: 120px;
+}
+
+
+.product-heading {
+  margin: 0px 0px 15px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 40px;
+  color: #222222;
+  font-weight: 800;
+}
+
+.para {
+margin: 0px 180px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 18px;
+line-height: 1.5rem;
+}
+
+.img-fluid {
+margin-top: 30px;
+}
+
+.section-1 {
+  background: #edf6ff; 
+  padding-top: 120px;
+  padding-bottom: 120px; 
+  line-height: 15px;
+}
+.my-auto{
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
+  
+
+.company-motto {
+  font-size: 32px;
+  font-family: 'Heebo', sans-serif;
+  color: #222222;
+}
+
+.company-slogan {
+ font-size: 16px;
+ color: #222222;
+ margin: 0px 0px 8px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.para-1 {
+ color: #777777;
+ font-size: 14px;
+ font-family: "Roboto", sans-serif;
+}
+
+
+
+.main-btn {
+  display: inline-block;
+  background-image: linear-gradient(to right,#4dabff 0%,#62ddff 48%,#4dabff 100%);
+  background-size: 200% auto;
+  padding: 0 35px;
+  margin: 35px 0px 0px;
+  color: #fff;
+  font-family: "Roboto",sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 50px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  outline: none!important;
+  box-shadow: none!important;
+  text-align: center;
+  cursor: pointer;
+  transition: all 300ms linear 0s;
+}
+
+
+
+
+.section-3 {
+  padding: 120px;
+}
+
+.screen-section {
+  padding: 120px;
+
+}
+
+.primary-heading {
+  font-family: "Heebo", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.card {
+  border: unset;
+}
+
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container {
+  width: 80px;
+  height: 80px;
+  background-color: #f9f9ff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.card-title {
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+}
+
+.card:hover .card-title {
+  color: #4dabff;
+}
+
+.card:hover .icon-container {
+  background-image: linear-gradient(90deg, #4dabff 0%, #62ddff 100%);
+  color: #fff;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pricing-card .card-header {
+  background-color: #edf6ff;
+  border-bottom: 1px solid #eee;
+  padding: 35px 0;
+}
+
+.pricing-card .card-header .card-title {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 0;
+}
+
+.pricing-card .card-body {
+  padding: 30px;
+}
+
+.pricing-card .card-body .pricing-card-list {
+  margin-bottom: 40px;
+  list-style: none;
+}
+
+.pricing-card-item {
+  margin-bottom: 20px;
+}
+
+.pricing-card-item a {
+  color: #000;
+}
+
+.pricing-card-tag {
+  font-family: "Heebo", sans-serif;
+  background-color: #edf6ff;
+  border-radius: 5px;
+  padding: 40px 0;
+}
+
+.pricing-card:hover .card-header,
+.pricing-card:hover .pricing-card-tag {
+  background-image: linear-gradient(90deg, #4dabff 0%, #62ddff 100%);
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card-tag h3 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.pricing-card-tag h3 sup {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.pricing-card-tag h3 span {
+  margin-top: 10px;
+}
+
+.pricing-card-tag h3 sub {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.pricing-card-tag .nav-pills .nav-item {
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 0 15px;
+  color: #777;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  text-align: left;
+  font-size: 4px;
+  font-weight: 600;
+}
+
+.pricing-card-btn {
+  background-image: linear-gradient(90deg, #4dabff 0%, #62ddff 100%);
+  color: white;
+}
+
+.pricing-card:hover .pricing-card-btn {
+  background-color: #fff;
+  background-image: unset;
+  color: black;
+}
+
+.testimonial-card {
+  border-radius: 10px;
+  padding: 40px;
+  transition: all 300ms linear 0s;
+}
+
+.testimonial-card:hover {
+  box-shadow: 0 10px 30px 0 rgba(157, 157, 157, 0.2);
+}
+
+.testimonial-card .card-text {
+  margin-bottom: 20px;
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #777;
+}
+
+.testimonial-card .card-title {
+  color: #222;
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 300ms linear 0s;
+}
+
+.testimonial-card .card-rating {
+  color: gold;
+}
+
+.nav-pills .nav-link.active {
+  background-image: linear-gradient(90deg, #4dabff 0%, #62ddff 100%);
+  color: #fff;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills .nav-link {
+  line-height: 68px;
+  padding: 0px;
+  font-size: 13px;
+  color: #000;
+}
+
+.tab-pane .row .col-md-6 h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 46px;
+  margin-bottom: 28px;
+}
+
+.tab-pane .row .col-md-6 h5 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.custom-btn {
+  width: unset;
+  background-image: linear-gradient(90deg, #4dabff 0%, #62ddff 100%);
+  color: #fff;
+  padding: 0 35px;
+  font-size: 13px;
+  transition: all 300ms linear 0s;
+}
+
+.custom-btn:hover {
+  background-image: linear-gradient(90deg, #62ddff 0%, #4dabff 100%);
+  color: white;
+}
+
+.section-4 {
+  padding: 50px;
+  background-color: #3bacf0 ;
+
+}
+
+.impression-section {
+  
+}
+
+
+.question-heading {
+  color: #ffffff;
+  font-family: "Heebo", sans-serif;
+  margin: 0px 0px 18px;
+  font-size: 35px;
+}
+
+.question-para {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  margin: 0px 0px 35px;
+}
+
+.btn-banner {
+  width: unset;
+  background-color: #ffffff;
+  color: #000;
+  padding: 0 35px;
+  font-size: 14px;
+  transition: all 300ms linear 0s;
+  padding: 15px 35px;
+  border-radius: 3px;
+}
+
+.btn-banner:hover {
+  background-image: linear-gradient(90deg, #62ddff 0%, #4dabff 100%);
+  color: #ffffff;
+}
+.section-5{
+  padding: 120px 0px;
+  background-color: #000410;
+}
+
+
+.text-area {
+  line-height: ;
+}
+
+.footer-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Heebo",sans-serif;
+  font-weight: 500;
+  padding: 0px 0px 30px
+}
+
+.top-para {
+  color: #777777;
+  font-size: 14px;
+  padding: 0px 0px 25px;
+
+}
+
+.bottom-para {
+ color: #777777;
+ font-size: 14px;
+ font-family: "Roboto", sans-serif;
+ padding: 0px 0px 15px;
+}
+
+.trend-para {
+  color: #777777;
+  font-size: 14px;
+  padding: 0px 0px 15px;
+  text-transform: capitalize;
+}
+
+input {
+  height: 37px;
+  background: #fff;
+  border-radius: 0;
+  width: 44%;
+  border: none;
+  padding: 25px;
+  font-family: "Roboto",sans-serif;
+  color: #ccc;
+  outline: none;
+  box-shadow: none;
+  padding: 0px 15px;
+  line-height: 20px;
+
+}
+
+
+.btn-arrow {
+  border-radius: 0;
+  background: #3bacf0;
+  outline: none!important;
+  box-shadow: none!important;
+  padding: 0;
+  height: 37px;
+  width: 44px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.social-icon {
+  margin-left: px;
+}
